@@ -1,5 +1,8 @@
-body {
-    width: 100vh;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 100vh;
     background: linear-gradient(
         to bottom,
@@ -7,4 +10,11 @@ body {
         rgb(242, 21, 119),
         rgb(20, 39, 79)
     );
+}
+
+.sun {
+    width: 20vw;
+    height: 20vw;
+    background-color: yellow;
+    border-radius: 50%;
 }
