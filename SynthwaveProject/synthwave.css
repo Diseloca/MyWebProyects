@@ -1,4 +1,5 @@
-.container {
+/* sun properties */
+.sun-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +16,16 @@
 .sun {
     width: 20vw;
     height: 20vw;
-    background-color: yellow;
     border-radius: 50%;
+    
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 208, 0) 30px,
+        rgb(255, 72, 0)
+    );
 }
+
+/* floor properties */
+.net-container {}
+
+.net {}
