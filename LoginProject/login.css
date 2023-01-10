@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, purple, turquoise);
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(220, 82, 255);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form { padding: 0 70px; }
+
+a { font-size: 12px; }
+
+.user-box input { margin-bottom: 50px; }
+
+.pswd-box input { margin-bottom: 15px; }
+
+.user-box input, .pswd-box input {
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid turquoise;
+    width: 100%;
+}
+.user-box input::placeholder, .pswd-box input::placeholder { color: turquoise; }
+
+.login-box {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.reminder-box input { display: inline; }
+
+.button-box {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.singup-box { padding-top: 80px; }
+
+input:focus { border-bottom: 2px solid purple; }
+input:focus::placeholder { color: purple; }

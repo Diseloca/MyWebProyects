@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+
+    overflow: hidden;
+    height: 100vh;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        rgb(20, 39, 79),
+        rgb(242, 21, 119),
+        rgb(20, 39, 79)
+    );
+    
+}
+
+.sun {
+    position: absolute;
+
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 208, 0) 30px,
+        rgb(255, 72, 0)
+    );
+
+    
+}
+
+.malla {
+    width: 30vw;
+    height: -1%;
+    
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0px,
+        rgba(54, 226, 248, .5) 0%,
+        rgba(54, 226, 248, .5) 1px,
+        rgba(0, 0, 0, 0) 0px
+    ), linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0px,
+        rgba(54, 226, 248, .5) 0%,
+        rgba(54, 226, 248, .5) 1px,
+        rgba(0, 0, 0, 0) 0px
+    );
+    background-size: 4em 2em, 4em 2em;
+    background-color:black;
+    perspective: 1000px;
+    transform: perspective(200px) rotateX(45deg) scale(2);
+}
