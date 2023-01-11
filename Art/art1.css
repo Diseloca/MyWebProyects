@@ -1,0 +1,32 @@
+.item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+
+    animation: spinAround 10s linear infinite;
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg) translate(100px);
+    }
+    to {
+        transform: rotate(360deg) translate(100px);
+    }
+}
+
+.circle3 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 66%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: magenta;
+}
